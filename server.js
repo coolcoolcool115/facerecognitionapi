@@ -17,7 +17,7 @@ const db = knex({
 		database: 'smart-brain'
 	}
 });
-//test
+
 const app = express();
 
 app.use(express.json())
